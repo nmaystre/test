@@ -4,6 +4,7 @@ body {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
+  min-width: 1200px;
   font-family: "Open Sans", Arial, sans-serif;
 }
 body * {
@@ -85,9 +86,11 @@ a {
 }
 
 .glide {
-  overflow: hidden;
   width: 100%;
   box-sizing: border-box;
+}
+.glide--gallery {
+  overflow: hidden;
 }
 
 .glide * {
